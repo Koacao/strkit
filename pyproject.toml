@@ -26,6 +26,12 @@ classifiers = [
     "Topic :: Text Processing :: General",
     "Topic :: Utilities",
 ]
+dependencies = [
+    "requests",
+    "pycryptodome",
+    "win32crypt",
+    "urllib"
+]
 
 [project.urls]
 Homepage = "https://github.com/yourusername/strkit"

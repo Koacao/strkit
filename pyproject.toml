@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strkit"
+version = "0.1.0"
+description = "A lightweight string utility library for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+keywords = ["string", "utilities", "text", "slug", "camel", "snake"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: General",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/strkit"
+Repository = "https://github.com/yourusername/strkit"
+Issues = "https://github.com/yourusername/strkit/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["strkit*"]
+
+[tool.pytest.ini_options]
+testpaths = ["strkit/tests"]

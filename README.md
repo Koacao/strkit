@@ -1,2 +1,1 @@
-# strkit
-A lightweight, zero-dependency Python library for common string operations.
+strkit gives you the string functions Python's standard library forgot. Slugify text for URLs, mask sensitive data, convert between camelCase and snake_case, extract emails and URLs from raw text, check palindromes, truncate with ellipsis, and more — all in one clean import with no dependencies.
